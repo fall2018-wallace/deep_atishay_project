@@ -34,3 +34,4 @@ names(df) <- make.names(names(df), unique=TRUE)
 plot <- hist(df$Satisfaction)
 
 plot
+df
