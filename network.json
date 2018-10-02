@@ -1,0 +1,59 @@
+{
+    "collaborators": [
+        "djmaniya",
+        "atishaycn"
+    ],
+    "created_at": "2018-10-02 15:25:28",
+    "edges": [
+        {
+            "ports": [
+                {
+                    "input": "raw_data",
+                    "type": "csv"
+                }
+            ],
+            "source": "raw_data.csv",
+            "target": "clean.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "clean_data",
+                    "type": "csv"
+                }
+            ],
+            "source": "clean.R",
+            "target": "data.csv"
+        },
+        {
+            "ports": [
+                {
+                    "output": "df",
+                    "type": "csv"
+                }
+            ],
+            "source": "read_data.R",
+            "target": "satisfaction_survey.csv"
+        }
+    ],
+    "nodes": [
+        {
+            "name": "raw_data.csv"
+        },
+        {
+            "name": "clean.R"
+        },
+        {
+            "name": "data.csv"
+        },
+        {
+            "desc": "reading the file",
+            "name": "read_data.R"
+        },
+        {
+            "name": "satisfaction_survey.csv"
+        }
+    ],
+    "updated_at": "2018-10-02 15:28:21",
+    "url": "https://github.com/fall2018-wallace/deep_atishay_project"
+}
