@@ -23,6 +23,16 @@
             ],
             "source": "clean.R",
             "target": "data.csv"
+        },
+        {
+            "ports": [
+                {
+                    "output": "df",
+                    "type": "csv"
+                }
+            ],
+            "source": "read_data.R",
+            "target": "satisfaction_survey.csv"
         }
     ],
     "nodes": [
@@ -43,6 +53,6 @@
             "name": "satisfaction_survey.csv"
         }
     ],
-    "updated_at": "2018-10-02 15:27:29",
+    "updated_at": "2018-10-02 15:27:41",
     "url": "https://github.com/fall2018-wallace/deep_atishay_project"
 }
