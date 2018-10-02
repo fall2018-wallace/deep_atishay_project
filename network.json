@@ -34,6 +34,26 @@
             ],
             "source": "read_data.R",
             "target": "satisfaction_survey.csv"
+        },
+        {
+            "ports": [
+                {
+                    "input": "satisfaction_survey",
+                    "type": "csv"
+                }
+            ],
+            "source": "satisfaction_survey.csv",
+            "target": "PreProcess.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "plot",
+                    "type": "png"
+                }
+            ],
+            "source": "PreProcess.R",
+            "target": "plot.png"
         }
     ],
     "nodes": [
@@ -52,8 +72,15 @@
         },
         {
             "name": "satisfaction_survey.csv"
+        },
+        {
+            "desc": "Preprocessing the data frame",
+            "name": "PreProcess.R"
+        },
+        {
+            "name": "plot.png"
         }
     ],
-    "updated_at": "2018-10-02 15:28:21",
+    "updated_at": "2018-10-02 15:41:58",
     "url": "https://github.com/fall2018-wallace/deep_atishay_project"
 }
