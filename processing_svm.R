@@ -7,7 +7,7 @@ dfSVMTrain <- dfSVM[1:10000,1:40]
 
 c <- dfSVM[10001:12000,53]
 dfSVMTest <- dfSVM[10001:12000,1:39]
-
+colnames(dfSVMTest)
 library(kernlab)
 
 #ksvm_Model <- ksvm(StatisfactionType ~Scheduled.Departure.Hour_Early_Morning,data=dfSVMTrain, kernel = "rbfdot", kpar = "automatic", C = 10, cross = 1, prob.model = TRUE)
