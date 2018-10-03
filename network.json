@@ -114,7 +114,7 @@
                 }
             ],
             "source": "For_RF.R",
-            "target": "rf_classifier1.txt"
+            "target": "accuracy1.txt"
         }
     ],
     "nodes": [
@@ -159,9 +159,9 @@
             "name": "svm_acc.txt"
         },
         {
-            "name": "rf_classifier1.txt"
+            "name": "accuracy1.txt"
         }
     ],
-    "updated_at": "2018-10-03 13:52:32",
+    "updated_at": "2018-10-03 13:53:46",
     "url": "https://github.com/fall2018-wallace/deep_atishay_project"
 }
