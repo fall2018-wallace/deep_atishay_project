@@ -36,4 +36,4 @@ functionForKSVMAccuracy <- function(dataSet){
 
 comparisonTable <- data.frame(dfSVMTest$StatisfactionType,dfSVMTest$predictedValues)
 table(comparisonTable)
-functionForKSVMAccuracy(comparisonTable)
+acc <- functionForKSVMAccuracy(comparisonTable)
