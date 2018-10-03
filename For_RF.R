@@ -58,5 +58,5 @@ pred_randomForest <- predict(rf_classifier, dfRFTest)
 rfText <- table(c,pred_randomForest)
 accuracy <- (rfText[1]+ rfText[5]+rfText[9])/sum(rfText)
 accuracy
-plotRFIMP <-varImpPlot(rf_classifier)
+plotRFIMP <-varImpPlot(rf_classifier,sort=TRUE)
 plotRFIMP
