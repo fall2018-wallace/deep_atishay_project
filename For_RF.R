@@ -55,4 +55,5 @@ rf_classifier = randomForest(StatisfactionType ~Scheduled.Departure.Hour_Early_M
                                Shopping.Amount.at.Airport+No.of.Flights.p.a.+Year.of.First.Flight+
                                Price.Sensitivity+Age+Gender+Airline.Status,data=dfRFTrain, ntree=50)
 pred_randomForest <- predict(rf_classifier, dfRFTest)
-table(c,pred_randomForest)
+rfText <- table(c,pred_randomForest)
+accuracy <- (rfText[1]+ rfText[5]+rfText[9])/sum(rfText)
