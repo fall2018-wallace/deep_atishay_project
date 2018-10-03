@@ -58,5 +58,14 @@ pred_randomForest <- predict(rf_classifier, dfRFTest)
 rfText <- table(c,pred_randomForest)
 accuracy <- (rfText[1]+ rfText[5]+rfText[9])/sum(rfText)
 accuracy
-plotRFIMP <-varImpPlot(rf_classifier,sort=TRUE)
+#plotRFIMP <-varImpPlot(rf_classifier,sort=TRUE)
+library(ggthemes)
+library(ggplot2)
+importance    <- importance(rf_classifier)
+varImportance <- data.frame(Variables = row.names(importance), Importance = round(importance))
+rankImportance <- varImportance %>%  mutate(Rank = paste0('#',dense_rank(desc(MeanDecreaseGini))))
+
+plotRFIMP <- ggplot(rankImportance, aes(x = reorder(Variables, MeanDecreaseGini), y = MeanDecreaseGini, fill = MeanDecreaseGini)) +
+  geom_bar(stat='identity') + coord_flip() + theme_few()
+
 plotRFIMP
