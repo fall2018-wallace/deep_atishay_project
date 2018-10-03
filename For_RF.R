@@ -1,5 +1,5 @@
 
-df <- satifaction_survey
+df <- satisfaction_survey
 
 names(df) <- make.names(names(df), unique=TRUE)
 df$Satisfaction <- gsub('\\s+', '', df$Satisfaction)
