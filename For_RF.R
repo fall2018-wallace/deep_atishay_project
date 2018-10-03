@@ -57,3 +57,4 @@ rf_classifier = randomForest(StatisfactionType ~Scheduled.Departure.Hour_Early_M
 pred_randomForest <- predict(rf_classifier, dfRFTest)
 rfText <- table(c,pred_randomForest)
 accuracy <- (rfText[1]+ rfText[5]+rfText[9])/sum(rfText)
+accuracy
