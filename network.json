@@ -65,6 +65,16 @@
             ],
             "source": "PreProcess.R",
             "target": "processing_svm.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "satisfaction_survey",
+                    "type": "csv"
+                }
+            ],
+            "source": "satisfaction_survey.csv",
+            "target": "For_RF.R"
         }
     ],
     "nodes": [
@@ -100,6 +110,6 @@
             "name": "For_RF.R"
         }
     ],
-    "updated_at": "2018-10-03 10:48:54",
+    "updated_at": "2018-10-03 10:49:36",
     "url": "https://github.com/fall2018-wallace/deep_atishay_project"
 }
