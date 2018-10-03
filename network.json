@@ -109,7 +109,7 @@
         {
             "ports": [
                 {
-                    "output": "rf_classifier1",
+                    "output": "accuracy1",
                     "type": "txt"
                 }
             ],
@@ -162,6 +162,6 @@
             "name": "rf_classifier1.txt"
         }
     ],
-    "updated_at": "2018-10-03 13:48:17",
+    "updated_at": "2018-10-03 13:52:32",
     "url": "https://github.com/fall2018-wallace/deep_atishay_project"
 }
