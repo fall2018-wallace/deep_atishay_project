@@ -31,6 +31,10 @@ df$Arrival.Delay.greater.5.Mins <- ifelse(df$Arrival.Delay.greater.5.Mins=='no',
 
 names(df) <- make.names(names(df), unique=TRUE)
 
+df$StatisfactionType <- ""
+df[which(df$Satisfaction<3), which(colnames(df) == 'StatisfactionType')]<-"LOW"
+df[which(df$Satisfaction==3), which(colnames(df) == 'StatisfactionType')]<-"MED"
+df[which(df$Satisfaction>3), which(colnames(df) == 'StatisfactionType')]<-"HIGH"
 
 plot <- hist(df$Satisfaction)
 
