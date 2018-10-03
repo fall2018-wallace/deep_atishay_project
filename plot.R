@@ -60,6 +60,7 @@ rf_classifier1 = randomForest(StatisfactionType ~Scheduled.Departure.Hour_Early_
 
 
 
-dev.new(width=10, height=10)
+dev.new(width=20, height=20)
+plotRFIMP <-varImpPlot(rf_classifier1,sort=TRUE)
 plotRFIMP
 dev.off()
