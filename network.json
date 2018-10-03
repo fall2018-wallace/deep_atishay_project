@@ -156,10 +156,6 @@
             "name": "processing_svm.R"
         },
         {
-            "desc": "Preprocessing for RF",
-            "name": "For_RF.R"
-        },
-        {
             "name": "accuracy.txt"
         },
         {
@@ -174,8 +170,14 @@
         {
             "desc": "",
             "name": "plot.R"
+        },
+        {
+            "assigned_to": "djmaniya",
+            "desc": "Preprocessing for RF",
+            "name": "For_RF.R",
+            "task_status": "proposed"
         }
     ],
-    "updated_at": "2018-10-03 14:39:12",
+    "updated_at": "2018-10-03 14:40:43",
     "url": "https://github.com/fall2018-wallace/deep_atishay_project"
 }
