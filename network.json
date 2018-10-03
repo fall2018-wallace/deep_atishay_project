@@ -115,6 +115,16 @@
             ],
             "source": "For_RF.R",
             "target": "accuracy1.txt"
+        },
+        {
+            "ports": [
+                {
+                    "input": "satisfaction_survey",
+                    "type": "csv"
+                }
+            ],
+            "source": "satisfaction_survey.csv",
+            "target": "plot.R"
         }
     ],
     "nodes": [
@@ -166,6 +176,6 @@
             "name": "plot.R"
         }
     ],
-    "updated_at": "2018-10-03 14:39:02",
+    "updated_at": "2018-10-03 14:39:12",
     "url": "https://github.com/fall2018-wallace/deep_atishay_project"
 }
