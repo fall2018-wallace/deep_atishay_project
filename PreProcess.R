@@ -1,4 +1,5 @@
 
+library(dummy)
 df <- satisfaction_survey
 
 
