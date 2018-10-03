@@ -58,7 +58,17 @@
         {
             "ports": [
                 {
-                    "input": "df",
+                    "input": "satisfaction_survey",
+                    "type": "csv"
+                }
+            ],
+            "source": "satisfaction_survey.csv",
+            "target": "For_RF.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "df_out",
                     "output": "df",
                     "type": "r_obj"
                 }
@@ -94,8 +104,12 @@
         {
             "desc": "",
             "name": "processing_svm.R"
+        },
+        {
+            "desc": "Preprocessing for RF",
+            "name": "For_RF.R"
         }
     ],
-    "updated_at": "2018-10-02 22:51:55",
+    "updated_at": "2018-10-03 11:17:19",
     "url": "https://github.com/fall2018-wallace/deep_atishay_project"
 }
