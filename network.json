@@ -155,10 +155,6 @@
             "name": "satisfaction_survey.csv"
         },
         {
-            "desc": "Preprocessing the data frame",
-            "name": "PreProcess.R"
-        },
-        {
             "name": "plot.png"
         },
         {
@@ -191,8 +187,14 @@
             "desc": "",
             "name": "processing_svm.R",
             "task_status": "proposed"
+        },
+        {
+            "assigned_to": "atjain",
+            "desc": "Preprocessing the data frame",
+            "name": "PreProcess.R",
+            "task_status": "proposed"
         }
     ],
-    "updated_at": "2018-10-03 14:42:43",
+    "updated_at": "2018-10-03 14:42:50",
     "url": "https://github.com/fall2018-wallace/deep_atishay_project"
 }
