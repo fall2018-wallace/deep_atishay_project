@@ -1,6 +1,7 @@
 
 df <- df
 ncol(df)
+colnames(df)
 dfSVM <- df[,c(1:3,5:8,10,12,13,15,25,26,28,29,31:39,40:54)]
 dfSVMTrain <- dfSVM[1:10000,2:39]
 
