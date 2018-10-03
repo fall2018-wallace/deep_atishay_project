@@ -75,6 +75,16 @@
             ],
             "source": "PreProcess.R",
             "target": "processing_svm.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "accuracy",
+                    "type": "txt"
+                }
+            ],
+            "source": "For_RF.R",
+            "target": "accuracy.txt"
         }
     ],
     "nodes": [
@@ -113,6 +123,6 @@
             "name": "accuracy.txt"
         }
     ],
-    "updated_at": "2018-10-03 12:44:24",
+    "updated_at": "2018-10-03 12:44:32",
     "url": "https://github.com/fall2018-wallace/deep_atishay_project"
 }
