@@ -1,4 +1,5 @@
 
+library(randomForest)
 df <- satisfaction_survey
 
 names(df) <- make.names(names(df), unique=TRUE)
