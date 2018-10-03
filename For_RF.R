@@ -69,7 +69,7 @@ rfText1 <- table(c,pred_randomForest1)
 accuracy1 <- (rfText1[1]+ rfText1[5]+rfText1[9])/sum(rfText1)
 accuracy1
 
-plotRFIMP <-varImpPlot(rf_classifier,sort=TRUE)
+#plotRFIMP <-varImpPlot(rf_classifier,sort=TRUE)
 
 
-plotRFIMP
+#plotRFIMP
