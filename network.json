@@ -54,6 +54,37 @@
             ],
             "source": "PreProcess.R",
             "target": "plot.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "satisfaction_survey",
+                    "type": "csv"
+                }
+            ],
+            "source": "satisfaction_survey.csv",
+            "target": "For_RF.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "df",
+                    "output": "df",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "PreProcess.R",
+            "target": "processing_svm.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "accuracy",
+                    "type": "txt"
+                }
+            ],
+            "source": "For_RF.R",
+            "target": "accuracy.txt"
         }
     ],
     "nodes": [
@@ -79,8 +110,19 @@
         },
         {
             "name": "plot.png"
+        },
+        {
+            "desc": "",
+            "name": "processing_svm.R"
+        },
+        {
+            "desc": "Preprocessing for RF",
+            "name": "For_RF.R"
+        },
+        {
+            "name": "accuracy.txt"
         }
     ],
-    "updated_at": "2018-10-02 20:58:22",
+    "updated_at": "2018-10-03 12:44:32",
     "url": "https://github.com/fall2018-wallace/deep_atishay_project"
 }
