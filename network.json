@@ -85,6 +85,36 @@
             ],
             "source": "For_RF.R",
             "target": "accuracy.txt"
+        },
+        {
+            "ports": [
+                {
+                    "output": "plotRFIMP",
+                    "type": "png"
+                }
+            ],
+            "source": "For_RF.R",
+            "target": "plotRFIMP.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "acc",
+                    "type": "txt"
+                }
+            ],
+            "source": "processing_svm.R",
+            "target": "svm_acc.txt"
+        },
+        {
+            "ports": [
+                {
+                    "output": "accuracy1",
+                    "type": "txt"
+                }
+            ],
+            "source": "For_RF.R",
+            "target": "accuracy1.txt"
         }
     ],
     "nodes": [
@@ -121,8 +151,17 @@
         },
         {
             "name": "accuracy.txt"
+        },
+        {
+            "name": "plotRFIMP.png"
+        },
+        {
+            "name": "svm_acc.txt"
+        },
+        {
+            "name": "accuracy1.txt"
         }
     ],
-    "updated_at": "2018-10-03 12:44:32",
+    "updated_at": "2018-10-03 13:53:46",
     "url": "https://github.com/fall2018-wallace/deep_atishay_project"
 }
