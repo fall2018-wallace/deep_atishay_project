@@ -6,7 +6,7 @@ dfSVM <- df[,c(2:8,10,11,13,23:52)]
 dfSVMTrain <- dfSVM[1:10000,1:40]
 
 c <- dfSVM[10001:12000,53]
-dfSVMTest <- dfSVM[10001:12000,1:39]
+dfSVMTest <- dfSVM[10001:12000,1:40]
 colnames(dfSVMTest)
 library(kernlab)
 
