@@ -125,6 +125,16 @@
             ],
             "source": "satisfaction_survey.csv",
             "target": "plot.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "plotRFIMP",
+                    "type": "png"
+                }
+            ],
+            "source": "plot.R",
+            "target": "plotRF.png"
         }
     ],
     "nodes": [
@@ -181,6 +191,6 @@
             "name": "plotRF.png"
         }
     ],
-    "updated_at": "2018-10-03 14:41:19",
+    "updated_at": "2018-10-03 14:41:26",
     "url": "https://github.com/fall2018-wallace/deep_atishay_project"
 }
