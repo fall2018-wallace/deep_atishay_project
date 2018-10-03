@@ -155,15 +155,7 @@
             "name": "satisfaction_survey.csv"
         },
         {
-            "desc": "Preprocessing the data frame",
-            "name": "PreProcess.R"
-        },
-        {
             "name": "plot.png"
-        },
-        {
-            "desc": "",
-            "name": "processing_svm.R"
         },
         {
             "name": "accuracy.txt"
@@ -178,10 +170,6 @@
             "name": "accuracy1.txt"
         },
         {
-            "desc": "",
-            "name": "plot.R"
-        },
-        {
             "assigned_to": "djmaniya",
             "desc": "Preprocessing for RF",
             "name": "For_RF.R",
@@ -189,8 +177,26 @@
         },
         {
             "name": "plotRF.png"
+        },
+        {
+            "assigned_to": "atjain",
+            "desc": "",
+            "name": "processing_svm.R",
+            "task_status": "proposed"
+        },
+        {
+            "assigned_to": "atjain",
+            "desc": "Preprocessing the data frame",
+            "name": "PreProcess.R",
+            "task_status": "proposed"
+        },
+        {
+            "assigned_to": "djmaniya",
+            "desc": "",
+            "name": "plot.R",
+            "task_status": "proposed"
         }
     ],
-    "updated_at": "2018-10-03 14:41:26",
+    "updated_at": "2018-10-03 14:42:58",
     "url": "https://github.com/fall2018-wallace/deep_atishay_project"
 }
