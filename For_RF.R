@@ -63,7 +63,7 @@ accuracy
 
 plotRFIMP <-varImpPlot(rf_classifier,sort=TRUE)
 
-
+dev.new(width=10, height=10)
 plotRFIMP
 dev.off()
 
