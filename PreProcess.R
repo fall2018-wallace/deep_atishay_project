@@ -1,5 +1,5 @@
 
-library(dummy)
+library(dummies)
 df <- satisfaction_survey
 
 
