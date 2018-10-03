@@ -75,6 +75,26 @@
             ],
             "source": "PreProcess.R",
             "target": "processing_svm.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "accuracy",
+                    "type": "txt"
+                }
+            ],
+            "source": "For_RF.R",
+            "target": "accuracy.txt"
+        },
+        {
+            "ports": [
+                {
+                    "output": "plotRFIMP",
+                    "type": "png"
+                }
+            ],
+            "source": "For_RF.R",
+            "target": "plotRFIMP.png"
         }
     ],
     "nodes": [
@@ -108,8 +128,17 @@
         {
             "desc": "Preprocessing for RF",
             "name": "For_RF.R"
+        },
+        {
+            "name": "accuracy.txt"
+        },
+        {
+            "name": "plotRFIMP.png"
+        },
+        {
+            "name": "svm_acc.txt"
         }
     ],
-    "updated_at": "2018-10-03 11:19:06",
+    "updated_at": "2018-10-03 13:27:52",
     "url": "https://github.com/fall2018-wallace/deep_atishay_project"
 }
