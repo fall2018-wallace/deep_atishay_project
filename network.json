@@ -95,6 +95,16 @@
             ],
             "source": "For_RF.R",
             "target": "plotRFIMP.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "acc",
+                    "type": "txt"
+                }
+            ],
+            "source": "processing_svm.R",
+            "target": "svm_acc.txt"
         }
     ],
     "nodes": [
@@ -134,8 +144,14 @@
         },
         {
             "name": "plotRFIMP.png"
+        },
+        {
+            "name": "svm_acc.txt"
+        },
+        {
+            "name": "rf_classifier1.txt"
         }
     ],
-    "updated_at": "2018-10-03 13:26:03",
+    "updated_at": "2018-10-03 13:46:52",
     "url": "https://github.com/fall2018-wallace/deep_atishay_project"
 }
