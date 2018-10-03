@@ -12,7 +12,7 @@ library(kernlab)
 
 #ksvm_Model <- ksvm(StatisfactionType ~Scheduled.Departure.Hour_Early_Morning,data=dfSVMTrain, kernel = "rbfdot", kpar = "automatic", C = 10, cross = 1, prob.model = TRUE)
 
-ksvm_Model <- ksvm(StatisfactionType ~Scheduled.Departure.Hour_Early_Morning+Type.of.Travel_Mileage.tickets+
+#ksvm_Model <- ksvm(StatisfactionType ~Scheduled.Departure.Hour_Early_Morning+Type.of.Travel_Mileage.tickets+
                      Type.of.Travel_Business.travel+Flight.Distance+Flight.time.in.minutes+
                      Departure.Delay.in.Minutes+Arrival.Delay.in.Minutes+Class+
                      Shopping.Amount.at.Airport+No.of.Flights.p.a.+Year.of.First.Flight+
