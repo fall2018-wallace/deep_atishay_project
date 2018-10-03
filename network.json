@@ -121,8 +121,11 @@
         },
         {
             "name": "accuracy.txt"
+        },
+        {
+            "name": "plotRFIMP.png"
         }
     ],
-    "updated_at": "2018-10-03 12:44:32",
+    "updated_at": "2018-10-03 13:25:56",
     "url": "https://github.com/fall2018-wallace/deep_atishay_project"
 }
