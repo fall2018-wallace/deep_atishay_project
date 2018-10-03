@@ -40,4 +40,3 @@ plot <- hist(df$Satisfaction)
 
 plot
 df
-unique(df$StatisfactionType)
