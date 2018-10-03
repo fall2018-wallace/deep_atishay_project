@@ -68,7 +68,7 @@
         {
             "ports": [
                 {
-                    "input": "df_out",
+                    "input": "df",
                     "output": "df",
                     "type": "r_obj"
                 }
@@ -110,6 +110,6 @@
             "name": "For_RF.R"
         }
     ],
-    "updated_at": "2018-10-03 11:18:27",
+    "updated_at": "2018-10-03 11:19:06",
     "url": "https://github.com/fall2018-wallace/deep_atishay_project"
 }
