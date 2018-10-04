@@ -58,16 +58,6 @@
         {
             "ports": [
                 {
-                    "input": "satisfaction_survey",
-                    "type": "csv"
-                }
-            ],
-            "source": "satisfaction_survey.csv",
-            "target": "For_RF.R"
-        },
-        {
-            "ports": [
-                {
                     "input": "df",
                     "output": "df",
                     "type": "r_obj"
@@ -146,7 +136,7 @@
             "assigned_to": "djmaniya",
             "desc": "Preprocessing for RF",
             "name": "For_RF.R",
-            "task_status": "proposed"
+            "task_status": "in progress"
         },
         {
             "name": "plotRF.png"
@@ -174,8 +164,12 @@
             "desc": "",
             "name": "clean.R",
             "task_status": "proposed"
+        },
+        {
+            "desc": "Cleaned data fro RF",
+            "name": "CleanDataRF.R"
         }
     ],
-    "updated_at": "2018-10-04 14:19:28",
+    "updated_at": "2018-10-04 14:21:08",
     "url": "https://github.com/fall2018-wallace/deep_atishay_project"
 }
