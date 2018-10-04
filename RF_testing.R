@@ -1,5 +1,5 @@
 
-plotRFIMP <-varImpPlot(rf_classifier,sort=TRUE)
+plotRFIMP <-varImpPlot(rf_classifier1,sort=TRUE)
 
 
 plotRFIMP
