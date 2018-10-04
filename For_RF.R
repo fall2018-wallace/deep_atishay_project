@@ -1,4 +1,5 @@
 
+library(randomForest)
 df <- df
 dfRF <- df[,c(2:8,10,11,13,23:52)]#df[,c(1:3,5:8,10,12,13,15,25,26,28,29,31:39,40:53)]
 dfRF$StatisfactionType <- factor(dfRF$StatisfactionType)
