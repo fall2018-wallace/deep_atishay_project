@@ -121,7 +121,7 @@
         {
             "ports": [
                 {
-                    "output": "accuracy1",
+                    "output": "plotRF",
                     "type": "png"
                 }
             ],
@@ -194,6 +194,6 @@
             "name": "accuracy.txt"
         }
     ],
-    "updated_at": "2018-10-04 14:26:11",
+    "updated_at": "2018-10-04 14:26:22",
     "url": "https://github.com/fall2018-wallace/deep_atishay_project"
 }
