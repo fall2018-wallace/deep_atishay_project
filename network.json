@@ -69,16 +69,6 @@
         {
             "ports": [
                 {
-                    "output": "accuracy",
-                    "type": "txt"
-                }
-            ],
-            "source": "For_RF.R",
-            "target": "accuracy.txt"
-        },
-        {
-            "ports": [
-                {
                     "output": "plotRFIMP",
                     "type": "png"
                 }
@@ -142,9 +132,6 @@
             "name": "plot.png"
         },
         {
-            "name": "accuracy.txt"
-        },
-        {
             "name": "plotRFIMP.png"
         },
         {
@@ -193,6 +180,6 @@
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-04 14:22:12",
+    "updated_at": "2018-10-04 14:22:22",
     "url": "https://github.com/fall2018-wallace/deep_atishay_project"
 }
