@@ -142,7 +142,14 @@
             "name": "raw_data.csv"
         },
         {
+            "name": "clean.R"
+        },
+        {
             "name": "data.csv"
+        },
+        {
+            "desc": "reading the file",
+            "name": "read_data.R"
         },
         {
             "name": "satisfaction_survey.csv"
@@ -173,26 +180,14 @@
         },
         {
             "assigned_to": "atjain",
-            "desc": "Preprocessing the data frame",
-            "name": "PreProcess.R",
-            "task_status": "proposed"
-        },
-        {
-            "assigned_to": "atjain",
             "desc": "",
             "name": "processing_svm.R",
             "task_status": "proposed"
         },
         {
             "assigned_to": "atjain",
-            "desc": "reading the file",
-            "name": "read_data.R",
-            "task_status": "proposed"
-        },
-        {
-            "assigned_to": "djmaniya",
-            "desc": "",
-            "name": "clean.R",
+            "desc": "Preprocessing the data frame",
+            "name": "PreProcess.R",
             "task_status": "proposed"
         },
         {
@@ -202,6 +197,6 @@
             "task_status": "proposed"
         }
     ],
-    "updated_at": "2018-10-04 13:42:04",
+    "updated_at": "2018-10-03 14:42:58",
     "url": "https://github.com/fall2018-wallace/deep_atishay_project"
 }
