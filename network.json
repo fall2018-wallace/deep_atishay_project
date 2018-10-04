@@ -121,22 +121,22 @@
         {
             "ports": [
                 {
-                    "output": "plotRF",
-                    "type": "png"
-                }
-            ],
-            "source": "RF_testing.R",
-            "target": "plotRF.png"
-        },
-        {
-            "ports": [
-                {
                     "output": "accuracy1",
                     "type": "txt"
                 }
             ],
             "source": "RF_testing.R",
             "target": "accuracy1.txt"
+        },
+        {
+            "ports": [
+                {
+                    "output": "plotRFIMP",
+                    "type": "png"
+                }
+            ],
+            "source": "RF_testing.R",
+            "target": "plotRF.png"
         }
     ],
     "nodes": [
@@ -207,6 +207,6 @@
             "name": "accuracy1.txt"
         }
     ],
-    "updated_at": "2018-10-04 14:26:43",
+    "updated_at": "2018-10-04 14:27:02",
     "url": "https://github.com/fall2018-wallace/deep_atishay_project"
 }
