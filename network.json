@@ -69,16 +69,6 @@
         {
             "ports": [
                 {
-                    "output": "plotRFIMP",
-                    "type": "png"
-                }
-            ],
-            "source": "For_RF.R",
-            "target": "plotRFIMP.png"
-        },
-        {
-            "ports": [
-                {
                     "output": "acc",
                     "type": "txt"
                 }
@@ -132,9 +122,6 @@
             "name": "plot.png"
         },
         {
-            "name": "plotRFIMP.png"
-        },
-        {
             "name": "svm_acc.txt"
         },
         {
@@ -180,6 +167,6 @@
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-04 14:22:22",
+    "updated_at": "2018-10-04 14:22:26",
     "url": "https://github.com/fall2018-wallace/deep_atishay_project"
 }
