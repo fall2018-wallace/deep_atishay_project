@@ -13,5 +13,5 @@ rf_classifier = randomForest(StatisfactionType ~Scheduled.Departure.Hour_Early_M
                                Departure.Delay.in.Minutes+Arrival.Delay.in.Minutes+Class+
                                Shopping.Amount.at.Airport+No.of.Flights.p.a.+Year.of.First.Flight+
                                Price.Sensitivity+Age+Gender+Airline.Status,data=dfRFTrain, ntree=50)
-
+rf_classifier
 
