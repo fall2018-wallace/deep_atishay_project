@@ -117,6 +117,16 @@
             ],
             "source": "RF_testing.R",
             "target": "accuracy.txt"
+        },
+        {
+            "ports": [
+                {
+                    "output": "accuracy1",
+                    "type": "png"
+                }
+            ],
+            "source": "RF_testing.R",
+            "target": "plotRF.png"
         }
     ],
     "nodes": [
@@ -184,6 +194,6 @@
             "name": "accuracy.txt"
         }
     ],
-    "updated_at": "2018-10-04 14:24:33",
+    "updated_at": "2018-10-04 14:26:11",
     "url": "https://github.com/fall2018-wallace/deep_atishay_project"
 }
