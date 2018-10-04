@@ -111,16 +111,6 @@
         {
             "ports": [
                 {
-                    "output": "accuracy",
-                    "type": "txt"
-                }
-            ],
-            "source": "RF_testing.R",
-            "target": "accuracy.txt"
-        },
-        {
-            "ports": [
-                {
                     "output": "accuracy1",
                     "type": "txt"
                 }
@@ -201,12 +191,9 @@
             "task_status": "in progress"
         },
         {
-            "name": "accuracy.txt"
-        },
-        {
             "name": "accuracy1.txt"
         }
     ],
-    "updated_at": "2018-10-04 14:27:02",
+    "updated_at": "2018-10-04 14:34:36",
     "url": "https://github.com/fall2018-wallace/deep_atishay_project"
 }
