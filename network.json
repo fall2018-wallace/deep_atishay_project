@@ -142,9 +142,6 @@
             "name": "raw_data.csv"
         },
         {
-            "name": "clean.R"
-        },
-        {
             "name": "data.csv"
         },
         {
@@ -197,8 +194,14 @@
             "desc": "reading the file",
             "name": "read_data.R",
             "task_status": "proposed"
+        },
+        {
+            "assigned_to": "djmaniya",
+            "desc": "",
+            "name": "clean.R",
+            "task_status": "proposed"
         }
     ],
-    "updated_at": "2018-10-04 13:41:51",
+    "updated_at": "2018-10-04 13:41:55",
     "url": "https://github.com/fall2018-wallace/deep_atishay_project"
 }
