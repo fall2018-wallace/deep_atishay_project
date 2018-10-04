@@ -9,9 +9,9 @@ accuracy
 
 plotRFIMP <-varImpPlot(rf_classifier,sort=TRUE)
 
-dev.new(width=10, height=10)
+
 plotRFIMP
-dev.off()
+
 
 rf_classifier1 = randomForest(StatisfactionType ~Scheduled.Departure.Hour_Early_Morning+Type.of.Travel_Mileage.tickets+
                                Type.of.Travel_Business.travel+Flight.Distance+
