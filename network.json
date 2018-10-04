@@ -115,26 +115,6 @@
             ],
             "source": "For_RF.R",
             "target": "accuracy1.txt"
-        },
-        {
-            "ports": [
-                {
-                    "input": "satisfaction_survey",
-                    "type": "csv"
-                }
-            ],
-            "source": "satisfaction_survey.csv",
-            "target": "plot.R"
-        },
-        {
-            "ports": [
-                {
-                    "output": "plotRFIMP",
-                    "type": "png"
-                }
-            ],
-            "source": "plot.R",
-            "target": "plotRF.png"
         }
     ],
     "nodes": [
@@ -142,14 +122,7 @@
             "name": "raw_data.csv"
         },
         {
-            "name": "clean.R"
-        },
-        {
             "name": "data.csv"
-        },
-        {
-            "desc": "reading the file",
-            "name": "read_data.R"
         },
         {
             "name": "satisfaction_survey.csv"
@@ -180,23 +153,29 @@
         },
         {
             "assigned_to": "atjain",
+            "desc": "Preprocessing the data frame",
+            "name": "PreProcess.R",
+            "task_status": "proposed"
+        },
+        {
+            "assigned_to": "atjain",
             "desc": "",
             "name": "processing_svm.R",
             "task_status": "proposed"
         },
         {
             "assigned_to": "atjain",
-            "desc": "Preprocessing the data frame",
-            "name": "PreProcess.R",
+            "desc": "reading the file",
+            "name": "read_data.R",
             "task_status": "proposed"
         },
         {
             "assigned_to": "djmaniya",
             "desc": "",
-            "name": "plot.R",
+            "name": "clean.R",
             "task_status": "proposed"
         }
     ],
-    "updated_at": "2018-10-03 14:42:58",
+    "updated_at": "2018-10-04 14:19:28",
     "url": "https://github.com/fall2018-wallace/deep_atishay_project"
 }
