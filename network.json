@@ -100,17 +100,6 @@
         {
             "ports": [
                 {
-                    "input": "rf_classifier",
-                    "output": "rf_classifier",
-                    "type": "r_obj"
-                }
-            ],
-            "source": "For_RF.R",
-            "target": "RF_testing.R"
-        },
-        {
-            "ports": [
-                {
                     "output": "plotRFIMP",
                     "type": "png"
                 }
@@ -127,6 +116,17 @@
             ],
             "source": "For_RF.R",
             "target": "accuracy1.txt"
+        },
+        {
+            "ports": [
+                {
+                    "input": "rf_classifier1",
+                    "output": "rf_classifier1",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "For_RF.R",
+            "target": "RF_testing.R"
         }
     ],
     "nodes": [
@@ -194,6 +194,6 @@
             "name": "accuracy1.txt"
         }
     ],
-    "updated_at": "2018-10-04 14:35:01",
+    "updated_at": "2018-10-04 14:35:43",
     "url": "https://github.com/fall2018-wallace/deep_atishay_project"
 }
