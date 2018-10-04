@@ -115,6 +115,17 @@
             ],
             "source": "satisfaction_survey.csv",
             "target": "CleanDataRF.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "df",
+                    "output": "df",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "CleanDataRF.R",
+            "target": "For_RF.R"
         }
     ],
     "nodes": [
@@ -182,6 +193,6 @@
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-04 14:21:48",
+    "updated_at": "2018-10-04 14:22:12",
     "url": "https://github.com/fall2018-wallace/deep_atishay_project"
 }
