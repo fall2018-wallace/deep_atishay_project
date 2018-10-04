@@ -148,10 +148,6 @@
             "name": "data.csv"
         },
         {
-            "desc": "reading the file",
-            "name": "read_data.R"
-        },
-        {
             "name": "satisfaction_survey.csv"
         },
         {
@@ -195,8 +191,14 @@
             "desc": "",
             "name": "processing_svm.R",
             "task_status": "proposed"
+        },
+        {
+            "assigned_to": "atjain",
+            "desc": "reading the file",
+            "name": "read_data.R",
+            "task_status": "proposed"
         }
     ],
-    "updated_at": "2018-10-04 13:41:40",
+    "updated_at": "2018-10-04 13:41:51",
     "url": "https://github.com/fall2018-wallace/deep_atishay_project"
 }
