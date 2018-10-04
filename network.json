@@ -79,16 +79,6 @@
         {
             "ports": [
                 {
-                    "output": "accuracy1",
-                    "type": "txt"
-                }
-            ],
-            "source": "For_RF.R",
-            "target": "accuracy1.txt"
-        },
-        {
-            "ports": [
-                {
                     "input": "satisfaction_survey",
                     "type": "csv"
                 }
@@ -123,9 +113,6 @@
         },
         {
             "name": "svm_acc.txt"
-        },
-        {
-            "name": "accuracy1.txt"
         },
         {
             "assigned_to": "djmaniya",
@@ -167,6 +154,6 @@
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-04 14:22:26",
+    "updated_at": "2018-10-04 14:22:32",
     "url": "https://github.com/fall2018-wallace/deep_atishay_project"
 }
