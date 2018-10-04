@@ -178,12 +178,6 @@
             "task_status": "proposed"
         },
         {
-            "assigned_to": "djmaniya",
-            "desc": "",
-            "name": "plot.R",
-            "task_status": "proposed"
-        },
-        {
             "assigned_to": "atjain",
             "desc": "",
             "name": "processing_svm.R",
@@ -200,8 +194,14 @@
             "desc": "",
             "name": "clean.R",
             "task_status": "proposed"
+        },
+        {
+            "assigned_to": "djmaniya",
+            "desc": "",
+            "name": "plot.R",
+            "task_status": "proposed"
         }
     ],
-    "updated_at": "2018-10-04 13:41:55",
+    "updated_at": "2018-10-04 13:42:04",
     "url": "https://github.com/fall2018-wallace/deep_atishay_project"
 }
