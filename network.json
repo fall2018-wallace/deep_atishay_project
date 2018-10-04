@@ -96,6 +96,17 @@
             ],
             "source": "CleanDataRF.R",
             "target": "For_RF.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "rf_classifier",
+                    "output": "rf_classifier",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "For_RF.R",
+            "target": "RF_testing.R"
         }
     ],
     "nodes": [
@@ -158,6 +169,6 @@
             "name": "RF_testing.R"
         }
     ],
-    "updated_at": "2018-10-04 14:23:17",
+    "updated_at": "2018-10-04 14:23:44",
     "url": "https://github.com/fall2018-wallace/deep_atishay_project"
 }
