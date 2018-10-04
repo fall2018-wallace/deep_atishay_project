@@ -105,6 +105,16 @@
             ],
             "source": "For_RF.R",
             "target": "accuracy1.txt"
+        },
+        {
+            "ports": [
+                {
+                    "input": "satisfaction_survey",
+                    "type": "csv"
+                }
+            ],
+            "source": "satisfaction_survey.csv",
+            "target": "CleanDataRF.R"
         }
     ],
     "nodes": [
@@ -166,10 +176,12 @@
             "task_status": "proposed"
         },
         {
+            "assigned_to": "djmaniya",
             "desc": "Cleaned data fro RF",
-            "name": "CleanDataRF.R"
+            "name": "CleanDataRF.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-04 14:21:08",
+    "updated_at": "2018-10-04 14:21:48",
     "url": "https://github.com/fall2018-wallace/deep_atishay_project"
 }
