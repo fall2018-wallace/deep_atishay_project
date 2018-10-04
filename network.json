@@ -152,8 +152,12 @@
             "desc": "Cleaned data fro RF",
             "name": "CleanDataRF.R",
             "task_status": "in progress"
+        },
+        {
+            "desc": "",
+            "name": "RF_testing.R"
         }
     ],
-    "updated_at": "2018-10-04 14:22:32",
+    "updated_at": "2018-10-04 14:23:17",
     "url": "https://github.com/fall2018-wallace/deep_atishay_project"
 }
