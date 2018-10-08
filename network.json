@@ -58,16 +58,6 @@
         {
             "ports": [
                 {
-                    "input": "satisfaction_survey",
-                    "type": "csv"
-                }
-            ],
-            "source": "satisfaction_survey.csv",
-            "target": "For_RF.R"
-        },
-        {
-            "ports": [
-                {
                     "input": "df",
                     "output": "df",
                     "type": "r_obj"
@@ -75,26 +65,6 @@
             ],
             "source": "PreProcess.R",
             "target": "processing_svm.R"
-        },
-        {
-            "ports": [
-                {
-                    "output": "accuracy",
-                    "type": "txt"
-                }
-            ],
-            "source": "For_RF.R",
-            "target": "accuracy.txt"
-        },
-        {
-            "ports": [
-                {
-                    "output": "plotRFIMP",
-                    "type": "png"
-                }
-            ],
-            "source": "For_RF.R",
-            "target": "plotRFIMP.png"
         },
         {
             "ports": [
@@ -109,6 +79,37 @@
         {
             "ports": [
                 {
+                    "input": "satisfaction_survey",
+                    "type": "csv"
+                }
+            ],
+            "source": "satisfaction_survey.csv",
+            "target": "CleanDataRF.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "df",
+                    "output": "df",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "CleanDataRF.R",
+            "target": "For_RF.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "plotRFIMP",
+                    "type": "png"
+                }
+            ],
+            "source": "RF_testing.R",
+            "target": "plotRF.png"
+        },
+        {
+            "ports": [
+                {
                     "output": "accuracy1",
                     "type": "txt"
                 }
@@ -119,22 +120,13 @@
         {
             "ports": [
                 {
-                    "input": "satisfaction_survey",
-                    "type": "csv"
+                    "input": "rf_classifier1",
+                    "output": "rf_classifier1",
+                    "type": "r_obj"
                 }
             ],
-            "source": "satisfaction_survey.csv",
-            "target": "plot.R"
-        },
-        {
-            "ports": [
-                {
-                    "output": "plotRFIMP",
-                    "type": "png"
-                }
-            ],
-            "source": "plot.R",
-            "target": "plotRF.png"
+            "source": "For_RF.R",
+            "target": "RF_testing.R"
         }
     ],
     "nodes": [
@@ -142,14 +134,7 @@
             "name": "raw_data.csv"
         },
         {
-            "name": "clean.R"
-        },
-        {
             "name": "data.csv"
-        },
-        {
-            "desc": "reading the file",
-            "name": "read_data.R"
         },
         {
             "name": "satisfaction_survey.csv"
@@ -158,25 +143,22 @@
             "name": "plot.png"
         },
         {
-            "name": "accuracy.txt"
-        },
-        {
-            "name": "plotRFIMP.png"
-        },
-        {
             "name": "svm_acc.txt"
-        },
-        {
-            "name": "accuracy1.txt"
         },
         {
             "assigned_to": "djmaniya",
             "desc": "Preprocessing for RF",
             "name": "For_RF.R",
-            "task_status": "proposed"
+            "task_status": "in progress"
         },
         {
             "name": "plotRF.png"
+        },
+        {
+            "assigned_to": "atjain",
+            "desc": "Preprocessing the data frame",
+            "name": "PreProcess.R",
+            "task_status": "proposed"
         },
         {
             "assigned_to": "atjain",
@@ -186,17 +168,35 @@
         },
         {
             "assigned_to": "atjain",
-            "desc": "Preprocessing the data frame",
-            "name": "PreProcess.R",
+            "desc": "reading the file",
+            "name": "read_data.R",
             "task_status": "proposed"
         },
         {
             "assigned_to": "djmaniya",
             "desc": "",
-            "name": "plot.R",
+            "name": "clean.R",
             "task_status": "proposed"
+        },
+        {
+            "assigned_to": "djmaniya",
+            "desc": "Cleaned data fro RF",
+            "name": "CleanDataRF.R",
+            "task_status": "in progress"
+        },
+        {
+            "assigned_to": "djmaniya",
+            "desc": "",
+            "name": "RF_testing.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "accuracy1.txt"
+        },
+        {
+            "name": "plot7462.png"
         }
     ],
-    "updated_at": "2018-10-03 14:42:58",
+    "updated_at": "2018-10-08 20:23:03",
     "url": "https://github.com/fall2018-wallace/deep_atishay_project"
 }
